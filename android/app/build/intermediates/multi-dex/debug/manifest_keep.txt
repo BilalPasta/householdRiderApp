@@ -1,0 +1,3 @@
+# Referenced at E:\Code\FYP\secondapp\fyp\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:34
+-keep class com.fyp.MainApplication { <init>(...); }
+

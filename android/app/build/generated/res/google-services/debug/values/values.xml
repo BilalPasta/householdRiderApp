@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">894381085837-kqab0hc0kku5ggiv35n1aiupvt2br8s3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://anytime-order-household-goods.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">894381085837</string>
+    <string name="google_api_key" translatable="false">AIzaSyD7emjH7UkVmwWbHyl9s606t-MLtke7DqU</string>
+    <string name="google_app_id" translatable="false">1:894381085837:android:6c071a3fd04f4833</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD7emjH7UkVmwWbHyl9s606t-MLtke7DqU</string>
+    <string name="google_storage_bucket" translatable="false">anytime-order-household-goods.appspot.com</string>
+    <string name="project_id" translatable="false">anytime-order-household-goods</string>
+</resources>

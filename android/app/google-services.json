@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894381085837",
+    "firebase_url": "https://anytime-order-household-goods.firebaseio.com",
+    "project_id": "anytime-order-household-goods",
+    "storage_bucket": "anytime-order-household-goods.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894381085837:android:6c071a3fd04f4833",
+        "android_client_info": {
+          "package_name": "com.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894381085837-pctkijbqsk145g0t0ad287c0l9mltlv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fyp",
+            "certificate_hash": "f3e2c4f2f1cb6a8d7ff9267d8e3b2e1dc4c46d8d"
+          }
+        },
+        {
+          "client_id": "894381085837-kqab0hc0kku5ggiv35n1aiupvt2br8s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7emjH7UkVmwWbHyl9s606t-MLtke7DqU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894381085837-kqab0hc0kku5ggiv35n1aiupvt2br8s3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

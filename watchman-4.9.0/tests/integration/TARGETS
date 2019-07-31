@@ -1,0 +1,63 @@
+cpp_binary(
+    name = "cppclient",
+    srcs = ["cppclient.cpp"],
+    deps = [
+        "@/folly:folly",
+        "@/folly/init:init",
+        "@/folly/io/async:event_base_thread",
+        "@/watchman/cppclient:cppclient",
+        "@/watchman/cppclient:headers",
+    ],
+)
+
+python_library(
+    name = "testsupport",
+    srcs = glob(
+        [
+            "Interrupt.py",
+            "TempDir.py",
+            "Wat*.py",
+            "path_utils.py",
+        ],
+        excludes = [
+            "WatchmanEdenTestCase.py",
+        ],
+    ),
+    base_module = "",
+    deps = [
+        "@/watchman:watchman",
+        "@/watchman/python/pywatchman:pywatchman",
+    ],
+)
+
+srcs = glob(
+    [
+        "test_*.py",
+    ],
+    excludes = [
+        "test_eden*.py",
+    ],
+)
+
+py3_srcs = glob(
+    [
+        "test_*.py",
+    ],
+    excludes = [
+        "test_nodejs.py",
+        "test_php.py",
+        "test_eden*.py",
+    ],
+)
+
+python_library(
+    name = "testlib",
+    srcs = srcs,
+    deps = [":testsupport"],
+)
+
+python_library(
+    name = "testlib-py3",
+    srcs = py3_srcs,
+    deps = [":testsupport"],
+)

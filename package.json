@@ -1,0 +1,44 @@
+{
+  "name": "fyp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "clean": "react-native-clean-project"
+  },
+  "dependencies": {
+    "base": "^3.0.0",
+    "firebase": "^5.0.3",
+    "haversine": "^1.1.1",
+    "native": "^0.3.3",
+    "react": "16.6.1",
+    "react-native": "^0.55.4",
+    "react-native-boundary": "^1.0.6",
+    "react-native-clean-project": "^3.0.1",
+    "react-native-credit-card-input": "^0.4.1",
+    "react-native-facebook-account-kit": "^1.1.0",
+    "react-native-firebase": "^5.2.3",
+    "react-native-maps": "^0.23.0",
+    "react-native-paper": "^2.15.0",
+    "react-native-root-toast": "^3.0.2",
+    "react-native-snackbar": "^0.4.1",
+    "react-native-stripe-api": "^0.1.0",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^2.6.2",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "watchman": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.1.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
