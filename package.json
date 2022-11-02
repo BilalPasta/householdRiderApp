@@ -13,7 +13,7 @@
     "haversine": "^1.1.1",
     "native": "^0.3.3",
     "react": "16.6.1",
-    "react-native": "^0.55.4",
+    "react-native": "^0.70.4",
     "react-native-boundary": "^1.0.6",
     "react-native-clean-project": "^3.0.1",
     "react-native-credit-card-input": "^0.4.1",
